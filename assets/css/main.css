@@ -817,24 +817,30 @@ section,
 
 .hero .hero-image .image-wrapper .floating-card.card-2 {
   top: 60%;
-  right: -15%;
+  right: -5%;
   z-index: 3;
 }
 
 @media (max-width: 992px) {
-  .hero .hero-image .image-wrapper .floating-card.card-2 {
-    right: -10%;
-  }
+    .hero .hero-image .image-wrapper .floating-card.card-1 {
+        left: -13%;
+    }
+    .hero .hero-image .image-wrapper .floating-card.card-2 {
+        right: -10%;
+    }
 }
 
 @media (max-width: 768px) {
-  .hero .hero-image .image-wrapper .floating-card.card-2 {
-    right: 0;
+  .hero .hero-image .image-wrapper .floating-card.card-1 {
     top: 50%;
+  }
+    .hero .hero-image .image-wrapper .floating-card.card-2 {
+    right: -5%;
+    top: 80%;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .hero .hero-image .image-wrapper .floating-card.card-1 {
         display: none;
     }
