@@ -834,6 +834,15 @@ section,
   }
 }
 
+@media (max-width: 480px) {
+    .hero .hero-image .image-wrapper .floating-card.card-1 {
+        display: none;
+    }
+    .hero .hero-image .image-wrapper .floating-card.card-2 {
+        display: none;
+    }
+}
+
 .hero .hero-image .image-wrapper .floating-card.card-3 {
   bottom: 15%;
   left: -10%;
